@@ -1,21 +1,26 @@
 body{
-    background-color: darkseagreen;
+    background-color:dodgerblue;
 }
 
 .square{
-   width: calc(100% / 10);
+   width: calc(100% / 12);
    aspect-ratio: 1;
    padding: 2rem;
-   border: 1px solid black;
-   background-color: lightskyblue; 
+   border: transparent; 
    display: flex;
    justify-content: center;
    align-items: center;
    font-size: 1.2rem;
+   font-weight: bolder;
+   border-radius: 10px;
+}
+
+.normal{
+    background-color: lightskyblue;
 }
 
 .fizz{
-    background-color: greenyellow;
+    background-color:springgreen;
 }
 
 .buzz{
@@ -23,5 +28,5 @@ body{
 }
 
 .fizzbuzz{
-    background-color: red;
+    background-color:crimson;
 }
